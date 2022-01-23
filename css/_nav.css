@@ -1,5 +1,5 @@
 .navbar {
-  background-color: var(--nav-colour);
+  background-color: var(--nav-colour) !important;
 }
 
 .navbar > div {
@@ -17,5 +17,6 @@
 
 .nav-link {
   color: gray;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
 }
