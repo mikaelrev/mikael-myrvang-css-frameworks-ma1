@@ -5,18 +5,28 @@ body {
 
 h1 {
   text-align: center;
-  padding: 2rem;
+  margin: 4rem 0;
   font-size: 2rem;
+}
+
+.container {
+  margin-bottom: 200px;
 }
 
 footer {
   background-color: var(--nav-colour);
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
+  padding: 1rem;
 }
 
-footer a {
+.footer-text {
+  max-width: 1320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+footer p {
   padding: 1rem;
   color: gray;
 }
