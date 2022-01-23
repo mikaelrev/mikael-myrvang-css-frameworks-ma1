@@ -1,0 +1,22 @@
+body {
+  background-color: var(--background-colour) !important;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+footer {
+  background-color: var(--nav-colour);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+footer a {
+  padding: 1rem;
+  color: gray;
+}
